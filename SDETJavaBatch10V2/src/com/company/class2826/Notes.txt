@@ -1,0 +1,110 @@
+Recap:
+Abstraction:
+Process of hiding implementation details and showing only the functionality
+to the user is called abstraction in java:
+We can achieve abstraction in java using abstract classes and interfaces
+
+Abstract:
+Abstract classes are classes with abstract keyword
+1) we can have defined and undefined method in abstract classes.
+2) we can not create the object of abstract classes directly, but we can create
+it indirectly with the help of inheritance.
+
+Interfaces:
+are contracts in java all the classes which implement an interface must provide the
+implementation for the abstract methods in that are defined interfaces in interface or that class
+must be declared abstract.
+
+Interface Properties:
+all the variables are public static and final
+all the methods are public abstract by default
+
+Encapsulation:
+Encapsulation in java is hiding the fields of a class by making them private and
+providing the getters and setters to read and write those fields
+Encapsulation provides security we can write different validation steps before
+value are assigned to the fields of a class. We can also write logic to provide
+restricted access to these fields.
+=============================================================================================
+Problem with  primitive variables
+they can only hold a single value at a time.
+int a=10;
+we can solve this problem with the help of arrays.
+Arrays can hold multiple value in a single variable.
+Issues with arrays
+Fixed in size
+
+
+HW:
+
+1. Create an arraylist of cars and retrieve all the
+value using 3 different ways.
+
+2. Create an arrayList of words. Remove every
+word that ends with "e".
+
+3. Create an arrayList of drinks. If any drink has
+letter "a" or "e" replace it with water.
+
+4. Create an arrayList of even numbers from 1
+to 50. Remove any number that is divisible
+by 5 from that arrayList.
+
+=================================================================================================
+
+Рекап:
+Абстракция:
+Процесс сокрытия деталей реализации и демонстрации пользователю только функциональности
+пользователю называется абстракцией в java:
+Мы можем достичь абстракции в java, используя абстрактные классы и интерфейсы.
+
+Абстракция:
+Абстрактные классы - это классы с ключевым словом abstract
+1) мы можем иметь определенные и неопределенные методы в абстрактных классах.
+2) мы не можем создать объект абстрактного класса напрямую, но мы можем создать его косвенно с помощью абстрактных классов.
+но можем создать его косвенно с помощью наследования.
+
+Интерфейсы:
+В java все классы, реализующие интерфейс, должны предоставлять реализацию абстрактных методов в этом интерфейсе.
+реализацию для абстрактных методов, которые определены интерфейсом в интерфейсе, или этот класс
+должен быть объявлен абстрактным.
+
+Свойства интерфейса:
+все переменные являются публичными статическими и конечными
+все методы по умолчанию являются общедоступными абстрактными
+
+Инкапсуляция:
+Инкапсуляция в java - это сокрытие полей класса, делая их приватными и
+предоставляя геттеры и сеттеры для чтения и записи этих полей.
+Инкапсуляция обеспечивает безопасность, мы можем написать различные шаги проверки, прежде чем
+присвоения значения полям класса. Мы также можем написать логику для предоставления
+ограниченный доступ к этим полям.
+=============================================================================================
+Проблема с примитивными переменными
+они могут одновременно хранить только одно значение.
+int a=10;
+Мы можем решить эту проблему с помощью массивов.
+Массивы могут хранить несколько значений в одной переменной.
+Проблемы с массивами
+Фиксированный размер
+
+
+HW:
+
+1. Создайте массив автомобилей и извлеките из него все
+значения, используя 3 различных способа.
+
+2. Создайте массивСписок слов. Удалите каждое
+слово, которое заканчивается на "е".
+
+3. Создайте массивСписок напитков. Если в каком-либо напитке есть
+буква "а" или "е", замените его на воду.
+
+4. Создайте массивСписок четных чисел от 1
+до 50. Удалите из этого списка любое число, кратное
+на 5 из этого списка.
+
+
+
+
+

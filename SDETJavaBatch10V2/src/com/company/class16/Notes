@@ -1,0 +1,61 @@
+Instance variables:
+variables which are declared outside a method, loop, constructor or
+a block of code but inside a class without static keyword are called instance variables.
+We call them instance variables because for each object of that class a new copy of the variables
+is created in memory.
+
+Переменные экземпляра:
+переменные, которые объявляются вне метода, цикла, конструктора или
+блока кода, но внутри класса без ключевого слова static, называются переменными экземпляра.
+Мы называем их переменными экземпляра, потому что для каждого объекта этого класса создается новая копия переменных
+создается в памяти.
+
+When to use:
+   when a value is expected to change from object to object we should declare an instance variable for
+   those values.
+
+Когда использовать:
+   когда ожидается, что значение будет изменяться от объекта к объекту, мы должны объявить переменную экземпляра для
+   этих значений.
+
+Static variables:
+    instance variables with a static keyword are called static variables. They are called class level variable
+    because their values stays same across all the object and only one memory location is occupied from the
+    main memory
+
+    Статические переменные:
+        переменные экземпляра с ключевым словом static называются статическими переменными. Они называются переменными уровня класса
+        потому что их значения остаются неизменными для всех объектов и занимают только одну ячейку памяти из
+        основная память
+
+When to use:
+    when we have to share something across all the object or if something is same for all the object we should
+    store that info in a static variable.
+    mostly they are used as constant
+    As a good practice we should access them using the class name
+
+Когда использовать:
+    Когда нам нужно разделить что-то между всеми объектами или если что-то одинаково для всех объектов, мы должны
+    хранить эту информацию в статической переменной.
+    В основном они используются как константы.
+    В качестве хорошей практики мы должны обращаться к ним, используя имя класса.
+
+Local variables:
+    variables which are declared inside a method or loop or switch case or any block of code are
+    called local variables.
+    we can not use static keyword with local variables
+    local variables occupy the memory in computer for shortest period of time
+
+Локальные переменные:
+    переменные, которые объявляются внутри метода или цикла, или регистра переключателей, или любого блока кода, называются
+    называются локальными переменными.
+    мы не можем использовать ключевое слово static с локальными переменными
+    локальные переменные занимают память компьютера в течение самого короткого периода времени
+
+static method:
+    we can have static methods as well but static methods can not access instance variables
+    while not static methods can access static as well as not static or instance variables
+
+статический метод:
+    мы можем иметь и статические методы, но статические методы не могут обращаться к переменным экземпляра
+    в то время как не статические методы могут обращаться как к статическим, так и не статическим переменным или переменным экземпляра

@@ -1,0 +1,47 @@
+Map -
+
+Map is an interface that helps us to store the data in the form of key value pairs.
+
+
+Map is a data structure (it is a way to store and manipulate the data) that stores keys and
+values in the form of pair.
+
+keys and values must be objects
+keys cannot be duplicate
+values can be duplicate
+
+When to use map:
+when fast search is required because of underlying data structure
+when we want the indexes other than natural indexes like integers
+
+Types of maps:
+HashMap - order is not maintained. But it is fastest. It is not thread safe.
+LinkedHashMap - order is maintained, but it is slower than hashmap.
+TreeMap - it always stores the data in a sorted from that,s why it is slower
+HashTale - it is similar to the hashmap it should be used when we have to write the code of multithreading because
+it is thread safe, but it is slower then hashmap
+
+===========================================================================================================================
+
+Map (Карта) -
+
+Map - это интерфейс, который помогает нам хранить данные в виде пар ключ-значение.
+
+
+Map - это структура данных (это способ хранения и манипулирования данными), которая хранит ключи и
+значения в виде пар.
+
+ключи и значения должны быть объектами
+ключи не могут быть дубликатами
+значения могут быть дубликатами
+
+Когда использовать Map:
+когда требуется быстрый поиск из-за лежащей в основе структуры данных
+когда нам нужны индексы, отличные от естественных индексов, например, целых чисел.
+
+Типы Map (карты):
+HashMap - порядок не поддерживается. Но она самая быстрая. Не является потокобезопасной.
+LinkedHashMap - порядок поддерживается, но она медленнее, чем hashmap.
+TreeMap - всегда хранит данные в отсортированном виде, поэтому работает медленнее.
+HashTale - похож на hashmap, его следует использовать, когда нам нужно написать многопоточный код, потому что
+он безопасен для потоков, но он медленнее, чем hashmap

@@ -1,0 +1,75 @@
+"this" keyword:
+We can use this keyword to differentiate between local and instance variables
+class car{
+String make;
+String modal;
+int year;
+Car(String make, String model, int year){
+String make="Honda";
+this.make=make;
+this.model=model;
+this.year=year;
+}
+
+void (){
+int year=2021;
+String make="Honda";
+String model="Civic";
+System.out.println(this.make+this.model+this.year)
+
+}
+
+}
+"this()"
+we can use this() to refer to the constructors of the class
+if we have multiple constructors java will decide based on the parameters
+which constructor to call.
+this keyword to call the method
+=====================================================
+Inheritance:
+is mechanism in java through which we can access all the fields and methods from one
+class inside another class
+We use extends keyword to inherit the properties and methods
+Advantages:
+we can avoid code duplication
+it improves the performance
+it reduces the amount of memory required to run the program.
+Disadvantages:
+Parent child classes are tightly coupled if we make any changes we must change the
+child classes as well otherwise code may beak.
+
+Types of inheritance
+1) Single inheritance
+one single parent class and one single child class.
+2) Multilevel inheritance
+we have chain of classes inheriting from each other for example
+class C=> class B=> class A
+3) Hierarchical inheritance:
+one parent class and multiple child classes
+
+"this()"
+мы можем использовать this() для обращения к конструкторам класса
+Если у нас несколько конструкторов, java решит, основываясь на параметрах.
+к какому конструктору обратиться.
+ключевое слово this для вызова метода
+=====================================================
+Наследование:
+это механизм в java, с помощью которого мы можем получить доступ ко всем полям и методам одного класса внутри другого класса.
+класса внутри другого класса
+Мы используем ключевое слово extends для наследования свойств и методов.
+Преимущества:
+мы можем избежать дублирования кода
+улучшает производительность
+уменьшается объем памяти, необходимой для выполнения программы.
+Недостатки:
+Родительские и дочерние классы тесно связаны друг с другом, если мы вносим какие-либо изменения, мы должны изменить и дочерние классы.
+в дочерние классы, иначе код может быть клювом.
+
+Виды наследования
+1) Одиночное наследование
+один единственный родительский класс и один единственный дочерний класс.
+2) Многоуровневое наследование
+у нас есть цепочка классов, наследующих друг от друга, например
+класс C=> класс B=> класс A
+3) Иерархическое наследование:
+один родительский класс и несколько дочерних классов

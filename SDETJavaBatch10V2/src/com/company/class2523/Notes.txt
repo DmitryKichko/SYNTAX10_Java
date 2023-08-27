@@ -1,0 +1,119 @@
+Method overriding:
+   Method overriding is a mechanism in Java through which child classes provide
+   their own behaviours with same method name as in parent class
+Riles for overriding:
+   1) there should be at least two classes with parent child relationship
+   2) method in child class must have same return type
+   3) name of the method with parameters (signature of method) should be same
+   4) Those members of the class which do not participate in inheritance can
+   not be overridden for example 1) Constructors 2) private methods
+   5) The access level of the method or property can not be more restrictive
+   for example if method in parent class has public access modifier we can not change
+   it to protected or default or private, but we can do the reverse.
+   6) we can't override a static method, but we can redeclare that method in child
+   class it's just a different name the mechanism is sane as non-static methods.
+   7) its also called dynamic polymorphism/late binding
+   8) we can use @Override to test our overriding method is correct or not
+
+Overloading                                  vs                      overriding
+Method return type does not matter     ==============    Method return type matter
+Method signature should be different                     Method signature should be same
+Access modifiers don't matter                            Access modifiers matter
+Inheritance is not needed                                Need inheritance relationship
+we can overload a constructor or                         constructors and private methods can't be overridden
+private method
+we can overload static methods                           we can not override static methods
+=================================================================================================================
+We can store a child class object inside a parent class type variable
+but we will only be able to call those methods which are present in Parent class
+if we want to call the methods from child class we must first convert parent type
+variable to Child type by using below syntax
+(ChildType)ParentVar will convert it to child type now we can call specific methods
+from child as well
+with the help of this casting we can create an array that can hold all the objects of all
+of child classes of parent and because of overriding all the methods have same name
+now we can execute all the methods from all the child classes with the help of an array
+without writing all the code manually.
+============================================================================================
+Final
+in java means something is complete and don't need modifications.
+if we use final keyword with a variable we can't change the value of that variable
+if we use it with methods no child class can override that method
+if we use with class name no class can inherit from that class
+
+
+
+class Test{
+final int a=10;
+a=20 CE error can't change it
+}
+
+final class Parent {
+final void method(){
+}
+}
+class Child extends Parent{
+void method(){
+}
+// CE error can not inherit
+}
+
+
+=========================================================================================================
+
+Переопределение методов:
+   Переопределение методов - это механизм в Java, с помощью которого дочерние классы предоставляют
+   собственное поведение с тем же именем метода, что и в родительском классе.
+Правила для переопределения:
+   1) должно быть как минимум два класса с отношениями родитель-ребенок
+   2) метод в дочернем классе должен иметь тот же тип возврата
+   3) имя метода с параметрами (сигнатура метода) должно быть одинаковым
+   4) те члены класса, которые не участвуют в наследовании, не могут быть переопределены.
+   не могут быть переопределены, например, 1) конструкторы 2) приватные методы
+   5) Уровень доступа метода или свойства не может быть более ограничительным
+   например, если метод в родительском классе имеет модификатор доступа public, мы не можем изменить его на protected или default или private.
+   его на protected или default или private, но мы можем сделать обратное.
+   6) мы не можем переопределить статический метод, но мы можем повторно объявить этот метод в дочернем классе.
+   это просто другое имя, механизм такой же, как и у нестатических методов.
+   7) это также называется динамическим полиморфизмом/поздним связыванием
+   8) мы можем использовать @Override, чтобы проверить, является ли наш переопределяемый метод правильным или нет.
+
+Перегрузка                               против                      переопределения
+Тип возврата метода не имеет значения ============== Тип возврата метода имеет значение
+Подпись метода должна быть разной                    Подпись метода должна быть одинаковой
+Модификаторы доступа не имеют значения               Модификаторы доступа имеют значение
+Наследование не нужно                                Нужны отношения наследования
+мы можем перегрузить конструктор или конструкторы, а частные методы не могут быть переопределены
+мы можем перегружать статические методы              мы не можем переопределять статические методы
+=================================================================================================================
+Мы можем хранить объект дочернего класса внутри переменной типа родительского класса
+но мы сможем вызывать только те методы, которые присутствуют в родительском классе.
+Если мы хотим вызвать методы из дочернего класса, мы должны сначала преобразовать переменную родительского типа в переменную типа Child, используя приведенный ниже синтаксис.
+в тип Child, используя следующий синтаксис
+(ChildType)ParentVar преобразует ее в тип child теперь мы можем вызывать определенные методы
+из дочернего класса
+С помощью этого кастинга мы можем создать массив, который может содержать все объекты всех
+дочерних классов родителя, а благодаря переопределению все методы имеют одинаковые имена.
+Теперь мы можем выполнять все методы из всех дочерних классов с помощью массива.
+без написания всего кода вручную.
+============================================================================================
+Final
+в java означает, что что-то завершено и не нуждается в модификациях.
+Если мы используем ключевое слово final с переменной, мы не можем изменить значение этой переменной.
+если мы используем его с методами, ни один дочерний класс не сможет переопределить этот метод
+если мы используем его с именем класса, ни один класс не сможет наследоваться от этого класса
+
+class Test{
+final int a=10;
+a=20 CE error can't change it
+}
+
+final class Parent {
+final void method(){
+}
+}
+class Child extends Parent{
+void method(){
+}
+// Ошибка CE не может наследоваться
+}

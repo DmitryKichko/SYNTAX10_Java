@@ -1,0 +1,17 @@
+"Super" keyword:
+Super keyword is only applicable when we have at least two classes that
+have prent child relationship if we have a duplicate field/method in parent and child class
+we can use super keyword to refer to the parent class field/method and if we do not
+use super keyword field/method from child class will be referred.
+we can also use super keyword with parentheses to call the parent class constructor so that
+we do not repeat that code in all the child classes.
+
+Ключевое слово "Super":
+Ключевое слово Super применяется только тогда, когда у нас есть как минимум два класса, которые
+если у нас есть дублирующееся поле/метод в родительском и дочернем классе, мы можем использовать
+ключевое слово super для ссылки на поле/метод родительского класса.
+мы можем использовать ключевое слово super для ссылки на поле/метод родительского класса, а если мы не используем
+ключевое слово super, то будет ссылаться на поле/метод из дочернего класса.
+Мы также можем использовать ключевое слово super с круглыми скобками для вызова конструктора родительского класса, чтобы
+не повторять этот код во всех дочерних классах.
+

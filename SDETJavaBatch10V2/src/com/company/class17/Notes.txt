@@ -1,0 +1,111 @@
+types of variables in Java:
+There are 3 types of variables in Java
+     1) local variables
+     2) instance
+     3) static
+local variable:
+Are those variables which are declared inside a block of code(method, loop, constructor, switch etc.)
+When to use:
+Always why because they occupy the memory for the shortest period of time in all
+the variables as soon as block of code is executed memory is free and can be
+used by other programs. We can not use static keyword with local variables.
+
+2) Instance variable:
+     Those variables which are outside of block of code but inside a class with out static
+     keywors are called instance variables
+When to use:
+     when we know that from object to object we will be having different values and we might
+     also need to shere the variables between different instance methods of that class
+3) static variables:
+     Those instance variables that have static keyword with them are called static variables.
+     one single copy of variables is shared across all the object.
+     When to use:
+     when we need to share something with all the objects
+     they mostly used as constants
+We can also have instance and static methods but we can not use instance variables or methods
+directly inside a static method if we want to use them we must create an object of that class
+but for instance methods we can freely use both types of methods and variables.
+
+типы переменных в Java:
+В Java существует 3 типа переменных
+     1) локальные переменные
+     2) экземпляр
+     3) статический
+локальная переменная:
+Это переменные, которые объявляются внутри блока кода (метод, цикл, конструктор, переключатель и т.д.).
+Когда использовать:
+Всегда, потому что они занимают память в течение самого короткого периода времени из всех
+переменных, как только блок кода выполняется, память освобождается и может быть использована другими программами.
+использоваться другими программами. Мы не можем использовать ключевое слово static с локальными переменными.
+
+2) Переменная экземпляра:
+     Те переменные, которые находятся вне блока кода, но внутри класса без статических ключевых слов, называются переменными экземпляра.
+     называются переменными экземпляра.
+Когда использовать:
+     когда мы знаем, что от объекта к объекту у нас будут разные значения, и нам может понадобиться разделить переменные.
+     также может потребоваться разделить переменные между различными методами экземпляра данного класса.
+3) статические переменные:
+     Те переменные экземпляра, которые имеют ключевое слово static, называются статическими переменными.
+     Одна единственная копия переменных разделяется между всеми объектами.
+     Когда использовать:
+     когда нам нужно разделить что-то между всеми объектами.
+     В основном они используются в качестве констант.
+У нас также могут быть методы экземпляра и статические методы, но мы не можем использовать переменные экземпляра или методы
+непосредственно внутри статического метода, если мы хотим их использовать, мы должны создать объект этого класса.
+но для методов экземпляра мы можем свободно использовать оба типа методов и переменных.
+
+Java class 17
+
+=============================================================================================
+Access modification is done in java with the help of three keywords
+1) private 2) protected 3) public 4) is not actually if we don't use any
+keywords with fields/methods default access is given to that field/method
+
+1) private:
+ private is the most restricted one we can only access private fields or method if we are
+ inside the same class
+
+ default access modifier:
+ This is not a keyword if we don't specify any keyword with our fields or methods
+ default access is applicable to that member automatically
+ when default access is given to something that member is only accessible within the same class and same class and same package
+ public access modifier:
+ public is least restricted one if a member is public we can access that member inside that class outside of
+ that class and outside of package as well but not outside of the project.
+
+
+protected one:
+its a keyword and it works a little different from other access modifiers
+if we are using a protected keywords we can access that member inside the same class or same package
+with/without creating an object depends on if we are in a static or the instance method but if we are in a different package we can not
+access it by creating an object but we can access it directly inside method of that class but for that we have to
+write extends keywords and the name of the class in which that variable/method is present and then we can access it directly.
+
+Модификация доступа осуществляется в java с помощью трех ключевых слов
+1) private 2) protected 3) public 4) не является таковым, если мы не используем ни одно из них
+ключевых слов с полями/методами, доступ по умолчанию предоставляется к этому полю/методу
+
+1) private:
+ private является наиболее ограниченным, мы можем получить доступ к приватным полям или методу только если мы находимся
+ внутри одного класса
+
+ модификатор доступа по умолчанию:
+ Это не ключевое слово, если мы не указываем никакого ключевого слова для наших полей или методов
+ доступ по умолчанию применяется к этому члену автоматически
+ когда доступ по умолчанию предоставляется чему-либо, этот член доступен только в пределах одного и того же класса, одного и того же класса и одного и того же пакета
+
+ модификатор доступа public:
+ public является наименее ограниченным, если член является публичным, мы можем получить доступ к этому члену внутри этого класса и вне его.
+ этого класса и вне пакета, но не за пределами проекта.
+
+protected:
+это ключевое слово, и оно работает немного иначе, чем другие модификаторы доступа.
+если мы используем ключевое слово protected, мы можем получить доступ к этому члену внутри того же класса или того же пакета.
+с/без создания объекта зависит от того, находимся ли мы в статическом методе или методе экземпляра, но если мы находимся в другом package, мы не можем
+получить доступ к нему путем создания объекта, но мы можем получить доступ к нему непосредственно в методе этого класса, но для этого нам необходимо
+написать ключевые слова extends и имя класса, в котором находится эта переменная/метод, и тогда мы сможем получить к ней прямой доступ.
+
+
+
+
+

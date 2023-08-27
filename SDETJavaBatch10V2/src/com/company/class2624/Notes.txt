@@ -1,0 +1,103 @@
+Casting in Non Primitives:
+As we can convert primitive data types with the help of casting we can do the String
+with non primitives.
+Rules:
+Parent classes are considered big data type in non primitives
+we can store the object of a child class in a variable of type Parent.
+
+class Parent{
+String name;
+void printName(){
+}
+}
+class Child extends Parent{
+
+void myOwnMethod{
+
+}
+}
+
+Parent parent = new Child();
+parent.myOwnMethod()// CE
+we can do above assignment but can't do the reverse
+Child child = new Parent(); // CE error
+Benefits of casting:
+we can achieve run time polymorphism using casting and method overriding
+we can store the object of all the child classes in arrays or some other data structures
+we can write dynamic code to access all those objects and execute the same methods on different objects.
+when we store an child class object in a parent type variable we can't child class specific methods
+if we want to call child class methods we can do so but we have to cast that object first.
+It's called run-time polymorphism/late binding.
+Final keyword:
+1) final with variables if we use final keyword with variables we can't change their values.
+2) if we use final with method we can not override that method in child class.
+3) if we use final with a class we can not inherit from that class.
+
+HW
+Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
+Define common behavior within and some fields in parent class and override some
+of the methods in child class
+Define some methods specific to child classes
+Create objects of child classes and store them into array. Loop through each object
+and execute available methods
+
+==============================================================================================
+Abstraction
+is a process of hiding implementation details and only showing the functionality.
+Interview question:
+How we can achieve multiple inheritance in Java?
+With the help of interfaces
+
+==============================================================================================
+
+Приведение в непримитивные типы данных:
+Поскольку мы можем преобразовывать примитивные типы данных с помощью кастинга, мы можем сделать то же самое со строкой
+с непримитивными типами.
+Правила:
+Родительские классы считаются большим типом данных в непримитивах
+Мы можем хранить объект дочернего класса в переменной типа Parent.
+
+class Parent{
+String name;
+void printName(){
+}
+}
+class Child extends Parent{
+
+void myOwnMethod{
+
+}
+}
+
+Parent parent = new Child();
+parent.myOwnMethod()// CE
+мы можем выполнить задание выше, но не можем выполнить обратное.
+Child child = new Parent(); // CE error
+
+Преимущества приведения:
+мы можем достичь полиморфизма во время выполнения с помощью приведения и переопределения методов
+мы можем хранить объекты всех дочерних классов в массивах или других структурах данных
+мы можем писать динамический код для доступа ко всем этим объектам и выполнять одни и те же методы на разных объектах.
+Когда мы храним объект дочернего класса в переменной родительского типа, мы не можем использовать методы, специфичные для дочерних классов.
+Если мы хотим вызвать методы дочернего класса, мы можем это сделать, но сначала мы должны привести этот объект.
+Это называется полиморфизмом во время выполнения/поздним связыванием.
+Ключевое слово final:
+1) final с переменными, если мы используем ключевое слово final с переменными, мы не можем изменить их значения.
+2) если мы используем final с методом, мы не можем переопределить этот метод в дочернем классе.
+3) если мы используем final с классом, мы не можем наследоваться от этого класса.
+
+HW
+Создайте класс Компьютер, который будет иметь 4 подкласса: Apple, Lenovo, HP, Dell.
+Определите общее поведение внутри и некоторые поля в родительском классе и переопределите некоторые
+методы в дочернем классе.
+Определите некоторые методы, специфичные для дочерних классов
+Создайте объекты дочерних классов и сохраните их в массив. Пройдитесь по каждому объекту
+и выполните доступные методы
+
+========================================================================================================
+Абстракция
+это процесс сокрытия деталей реализации и демонстрации только функциональности.
+Вопрос для интервью:
+Как мы можем добиться множественного наследования в Java?
+С помощью интерфейсов
+

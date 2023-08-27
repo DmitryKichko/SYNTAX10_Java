@@ -1,0 +1,88 @@
+Access modifiers:
+Keywords that determine the access of members(fields/methods/constructors)
+There are 4 access levels and 3 access modifier keywords.
+1) private 2) default (not a keyword) 3) protected 4) public
+1) private:
+      if we use the private keyword with the fields or methods those fields and
+      methods are only accessible within the same class
+2) default:
+    default is not a keyword if we don't specify any keyword with the fields/methods
+    default access it automatically applied by java that means that field or method
+    is accessible within the same class and within the same package.
+3) protected:
+     if we use the protected keyword that field/method is accessible within same
+     class within same package outside same package but we have to write extends
+     keyword and we can only access it without creating an object of that class.
+4) public:
+    public means accessible throughout project with or without creating an
+    object of that class
+
+Модификаторы доступа:
+Ключевые слова, определяющие доступ к членам (полям/методам/конструкторам).
+Существует 4 уровня доступа и 3 ключевых слова модификаторов доступа.
+1) private 2) default (не ключевое слово) 3) protected 4) public
+1) private:
+      если мы используем ключевое слово private с полями или методами, то эти поля и
+      методы доступны только в пределах одного класса
+2) default:
+    default не является ключевым словом, если мы не указываем никакого ключевого слова с полями/методами.
+    доступ по умолчанию автоматически применяется java, что означает, что поле или метод
+    доступны в пределах одного класса и одного пакета.
+3) protected:
+     Если мы используем ключевое слово protected, то поле/метод доступен в пределах того же класса в том же пакете вне того же пакета.
+     класса в пределах одного пакета вне одного пакета, но мы должны написать ключевое слово extends
+     и мы можем получить доступ к нему только без создания объекта этого класса.
+4) public:
+    public означает доступность во всем проекте с созданием или без создания объекта данного класса.
+    объект этого класса
+
+===================================================================================================
+
+Class Constructors and this keyword
+Constructors is very similar to a method  methods may or may not return something
+but constructor always never return anything not even void
+1) we use constructors to give initial values to fields of class
+2) constructors always have same name as class name while methods can have
+any names
+Person{
+Staring name;
+String address;
+int age;
+String country;
+Person(){
+System.out.println ("Inside the person class constructor this code will be executed automatically
+when we create the object of the class")
+
+}
+
+}
+
+Конструкторы класса и это ключевое слово
+Конструкторы очень похожи на методы Методы могут возвращать или не возвращать что-либо.
+но конструктор всегда ничего не возвращает, даже void
+1) мы используем конструкторы для присвоения начальных значений полям класса
+2) конструкторы всегда имеют то же имя, что и имя класса, в то время как методы могут иметь
+любые имена
+Person{
+Staring name;
+String address;
+int age;
+String country;
+Person(){
+System.out.println ("Inside the person class constructor this code will be executed automatically
+when we create the object of the class")
+
+}
+
+}
+
+
+we can have multiple constructor to ease the creating to object
+when we have multiple constructors java decide based on type and number of arguments that
+we are passing when we are creating an object if we are passing three values java will search for
+a constructor that takes 3 parameter and it will initialize your object with constructor.
+
+мы можем иметь несколько конструкторов, чтобы облегчить создание объекта
+Когда у нас есть несколько конструкторов, java принимает решение на основе типа и количества аргументов, которые
+мы передаем при создании объекта, если мы передаем три значения, java будет искать
+конструктор, который принимает 3 параметра, и инициализирует ваш объект с помощью конструктора.
