@@ -1,0 +1,15 @@
+
+КОМАНДЫ:
+
+1) Форматирование кода - приводит наш код в читаемый формат
+
+MAC: cmd + shift + f
+Windows: ctrl + shift + f
+
+2)  public static void main(String[] args) {  } - главный метод main (Наша начальная точка)
+
+MAC/Windows: main + ENTER
+
+3) System.out.println(); - Команда вывода/печати
+
+MAC/Windows: sout + ENTER
