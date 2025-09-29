@@ -1,0 +1,19 @@
+
+КОМАНДЫ:
+
+1) Автоматический импорт - это когда среда разработки сама добавляет нужные import-строки,
+как только мы используем какой-то класс или метод, находящийся не в нашем пакете.
+
+ MAC: OPTION + ENTER
+ WINDOWS: ALT + ENTER
+
+Пример:
+
+ArrayList<String> list = new ArrayList<>();
+
+Но import java.util.ArrayList; ещё не написан.
+
+	1.	IntelliJ подсветит ArrayList красным и предложит быстрый фикс (Alt+Enter/Option+Enter → Import Class).
+	2.	После подтверждения IDEA автоматически добавит в начало файла:
+
+
