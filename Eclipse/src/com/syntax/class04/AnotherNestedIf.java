@@ -35,10 +35,6 @@ public class AnotherNestedIf {
 		} else {
 			System.out.println("Вы должны были пройти тест !");
 		}
-		
-		
-		
-		
-		
 	}
+
 }

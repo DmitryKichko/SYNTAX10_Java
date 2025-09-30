@@ -1,24 +1,26 @@
 package com.syntax.class04;
 
-//shortcut to import: mac --> cmd+shift+o    windows --> ctrl+shift+o  
+// Автоматический импорт: mac --> OPTION + ENTER    windows --> ALT + ENTER
+
+
 import java.util.Scanner;
 
 public class ExampleOFScanner {
 
 	public static void main(String[] args) {
 		
-		
-		
-		Scanner scan=new Scanner(System.in); //создание сканера  
+		Scanner scan = new Scanner(System.in); // Создание сканера
 		
 		System.out.println("Пожалуйста, введите ваше имя"); 
-		String name=scan.nextLine(); //захват строкового значения
+		String name = scan.nextLine(); // Захват строкового значения
 		
-		System.out.println("Привет "+name);
-		
+		System.out.println("Привет " + name);
+
 		//захват целочисленного значения
 		System.out.println("Пожалуйста, введите свой возраст");
-		int age=scan.nextInt();
-		System.out.println(name+" "+age+" лет");
+		int age = scan.nextInt();
+		
+		System.out.println(name + " " + age + " лет");
+
 	}
 }

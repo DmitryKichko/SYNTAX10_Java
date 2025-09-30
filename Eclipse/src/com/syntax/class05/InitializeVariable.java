@@ -16,7 +16,7 @@ public class InitializeVariable {
 		int num1, num2, num3;
 
 		scan = new Scanner(System.in);
-		System.out.println("Пожалуйста, введите 3 цифры");
+		System.out.println("Пожалуйста, введите 3 числа по порядку");
 		num1 = scan.nextInt();
 		num2 = scan.nextInt();
 		num3 = scan.nextInt();
@@ -37,5 +37,4 @@ public class InitializeVariable {
 		// Определим, является ли наибольшая величина четной или нечетной
 
 	}
-
 }

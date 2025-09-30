@@ -1,0 +1,4 @@
+Быстрое автоформатирование/расстановка кода:
+
+	•	Windows/Linux: нажмите Ctrl + Alt + L
+	•	macOS: нажмите ⌥ Option + ⌘ Command + L

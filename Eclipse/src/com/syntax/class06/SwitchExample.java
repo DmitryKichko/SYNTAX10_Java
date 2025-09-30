@@ -9,9 +9,8 @@ public class SwitchExample {
 
 		case 'M':
 			System.out.println("Мужчина");
-			//  case 'M': СОВПАДЕНИЕ РЕГИСТРОВ НЕ ДОПУСКАЕТСЯ
-			// System.out.println("kgkgkgkkfkfkf");
 			break;
+			//  case 'M': СОВПАДЕНИЕ РЕГИСТРОВ НЕ ДОПУСКАЕТСЯ
 		case 'F':
 			System.out.println("Девушка");
 			break;

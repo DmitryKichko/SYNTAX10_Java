@@ -4,9 +4,9 @@ public class VariableValues {
 
 	public static void main(String[] args) {
 		
-		int myNumber=100;  //declare variable and assing the value
-	    char gender='W';
-	    int age=22;        //declare variable and assign the value 
+		int myNumber = 100;  //declare variable and assing the value
+	    char gender = 'W';
+	    int age = 22;        //declare variable and assign the value
 	    
 	    // bollean myNumber = trye; --> error saying dublicate variable 
 	    
@@ -14,7 +14,7 @@ public class VariableValues {
 	    
 	    System.out.println(age);
 	    
-	    age=23;
+	    age = 23;
 	    
 	    System.out.println(age);
 		

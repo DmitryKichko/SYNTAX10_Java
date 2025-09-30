@@ -4,14 +4,14 @@ public class LogicalNot {
 
 	public static void main(String[] args) {
 		
-		boolean b=!true;
+		boolean b = !true;
 		
-		boolean a=!false;
+		boolean a = !false;
 		
 		System.out.println(b); //false
 		System.out.println(a); //true
 		
-		boolean hungry=true;
+		boolean hungry = true;
 		
 		if (!hungry) {
 			System.out.println("Я не голоден");
@@ -27,10 +27,10 @@ public class LogicalNot {
 		
 		System.out.println("Конец кода класса");
 		
-		String name="Hamza";
+		String name="Андрей";
 		
-		if (!name.equals("Stephanie")) {
-			System.out.println("Тогда я вас не ищу");
+		if (!name.equals("Максим")) {
+			System.out.println("Извините я обознался");
 		}
 		
 				

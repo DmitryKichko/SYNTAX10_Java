@@ -7,25 +7,23 @@ public class Recap {
 	public static void main(String[] args) {
 		
 		String str;
-		str="некоторое значение";
+		str="Любое значение";
 		
 		Scanner input;
-		input=new Scanner(System.in);
+		input = new Scanner(System.in);
 		
-		int num=input.nextInt();
+		int num = input.nextInt();
 		System.out.println(num);
 		
-		char singleChar=input.next().charAt(0);
+		char singleChar = input.next().charAt(0);
 		System.out.println(singleChar);
 		
-		str=input.next();
+		str = input.next();
 		System.out.println(str);		
 			
 		input.nextLine();
-		str=input.nextLine();		
-		System.out.println(str);		
-				
-				
+		str = input.nextLine();
+		System.out.println(str);
 	}
 
 }

@@ -3,10 +3,10 @@ package com.syntax.class04;
 public class NestedIf {
 	public static void main(String[] args) {
 
-		boolean vaciine = true;
+		boolean vacine = true;
 		boolean secondDose = true;
 
-		if (vaciine) { // Да
+		if (vacine) { // Да
 
 			System.out.println("Давайте проверим, сколько доз вы получили");
 

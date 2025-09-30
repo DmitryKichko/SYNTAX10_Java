@@ -5,51 +5,52 @@ import java.util.Scanner;
 public class SwitchAndScanner {
 
 	public static void main(String[] args) {
-		
+
 		/*
-		 * Я хочу спросить, откуда вы родом?
-		 * исходя из страны мы будем определять традиционный?
+		 * Спросить, откуда вы родом?
+		 *
+		 * Исходя из страны необходимо определить традиционное блюдо.
 		 */
 		
 		Scanner in;
-		String country, tradionalFood;
+		String country, traditionalFood;
 		
 		in=new Scanner(System.in);
-		System.out.println("Привет, откуда ты? ");	
+		System.out.println("От куда вы родом?");
 		country=in.nextLine();
 		
 		switch(country) {
 		
 		case "США":
-			tradionalFood="Бургер";
+			traditionalFood = "Бургер";
 			break;
 		case "Афганистан":
-			tradionalFood="qabeli Palaw";
+			traditionalFood = "Кабульский плов";
 			break;
 		case "Перу":
-			tradionalFood="cevice";
+			traditionalFood = "Севиче";
 			break;
 		case "Италия":
-			tradionalFood="Паста";
+			traditionalFood = "Паста";
 			break;
 		case "Таджикистан":
-			tradionalFood="kuruto";
+			traditionalFood = "Курутоб";
 			break;
 		case "Украина":
-			tradionalFood="Борщ";
+			traditionalFood = "Борщ";
 			break;
 		case "Казахстан":
-			tradionalFood="бешбармак";
+			traditionalFood = "Бешбармак";
 			break;
 		case "Турция":
-			tradionalFood="борек";
+			traditionalFood = "Борек";
 			break;
 		default:
-			tradionalFood="Не знаю";
-				
+			traditionalFood = "Не знаю традиционное блюдо этой страны";
+
 		}
 		
-		System.out.println("Вы из "+country+" и ваша традиционная еда - это "+tradionalFood);
+		System.out.println("Вы из " + country + " и ваша традиционное блюдо - это " + traditionalFood);
 	}
 
 }

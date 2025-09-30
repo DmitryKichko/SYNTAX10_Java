@@ -4,7 +4,7 @@ public class LogicalOperatorsRecap {
 
 	public static void main(String[] args) {
 
-		System.out.println("-------    Пример OR   --------");
+		System.out.println("-------    Пример: ИЛИ   --------");
 
 		String position = "Тестировщик автоматизации";
 
@@ -12,7 +12,7 @@ public class LogicalOperatorsRecap {
 			System.out.println("Я счастлив");
 		}
 
-		System.out.println("-------    Пример: AND   --------");
+		System.out.println("-------    Пример: И   --------");
 
 		int salary = 100000;
 
@@ -20,7 +20,7 @@ public class LogicalOperatorsRecap {
 			System.out.println("Я очень рад !!!!!");
 		}
 
-		System.out.println("-------    Пример: NOT   --------");
+		System.out.println("-------    Пример: НЕ   --------");
 
 		boolean study = false;
 
@@ -29,5 +29,4 @@ public class LogicalOperatorsRecap {
 		}
 
 	}
-
 }
