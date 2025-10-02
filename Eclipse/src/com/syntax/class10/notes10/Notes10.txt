@@ -1,0 +1,9 @@
+
+ String[] array = new String[3];
+ array[0] = "Hello";
+ array[1] = "Hi";
+
+ System.out.println(array[3]); //  ----->  Исключение выхода индекса массива за пределы границ
+ System.out.println(array[2]); // null
+
+
